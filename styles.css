@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  #content {
+    padding: 20px;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  button.delete {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  button.update {
+    background-color: orange;
+    color: white;
+  }
+  
